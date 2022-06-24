@@ -8,19 +8,22 @@ body {
 .upper-section {
     background-color: #1f2937;
     color: white; 
-    height: 300px;
+    height: 400px;
+    padding: 10px 100px 100px 100px;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 ul {
@@ -41,4 +44,28 @@ ul {
 .sub-hero {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.title-section {
+    display: flex;
+}
+
+.title-section img {
+    max-width: 35%;
+    height: auto;
+    margin-left: 160px
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+button {
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 4px 24px;
+    border-color:#3882f6;
 }
