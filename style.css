@@ -1,0 +1,13 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+.upper-section {
+    background-color: #1f2937;
+    color: white; 
+    height: 300px;
+    
+}
