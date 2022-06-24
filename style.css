@@ -2,12 +2,42 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, sans-serif;
     min-height: 100vh;
     margin: 0;
-    
+      
 }
 
 .upper-section {
     background-color: #1f2937;
     color: white; 
     height: 300px;
-    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.sub-hero {
+    font-size: 18px;
 }
