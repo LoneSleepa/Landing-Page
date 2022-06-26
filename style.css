@@ -53,12 +53,12 @@ ul {
 
 #sunrise {
     display: flex;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-direction: flex-end;
 }
 
 .title-section img {
-    max-width: 80%;
+    width: 80%;
     height: auto;
 }
 
