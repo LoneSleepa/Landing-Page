@@ -2,7 +2,8 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, sans-serif;
     min-height: 100vh;
     margin: 0;
-      
+    display: flex;
+    flex-direction: column;
 }
 
 .upper-section {
@@ -17,7 +18,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
-
 }
 
 .logo {
@@ -140,6 +140,7 @@ button {
     padding: 30px 80px;
     color: aliceblue;    
     border-radius: 8px;
+    flex-shrink: 1;
 }
 
 #subtext {
@@ -148,4 +149,15 @@ button {
 
 .button-section button {
     border: 2px solid 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #1f2937;
+    color:#f9faf8;
+    font-size: 12px;
+    font-weight: 600;
 }
