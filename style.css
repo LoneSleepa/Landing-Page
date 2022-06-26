@@ -123,3 +123,27 @@ button {
     display: flex;
     justify-content: flex-end
 }
+
+.button-section {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    background-color: #3882f6;
+    display: flex;
+    gap: 200px;
+    padding: 30px 80px;
+    color: aliceblue;    
+    border-radius: 8px;
+}
+
+#subtext {
+    font-size: 10px;
+}
+
+.button-section button {
+    border: 2px solid 
+}
