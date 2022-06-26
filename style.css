@@ -48,12 +48,18 @@ ul {
 
 .title-section {
     display: flex;
+    justify-content: space-between;
+}
+
+#sunrise {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: flex-end;
 }
 
 .title-section img {
-    max-width: 35%;
+    max-width: 80%;
     height: auto;
-    margin-left: 160px
 }
 
 .hero-text {
